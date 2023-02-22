@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
  * main - print _putchar
  * is written by mbah
@@ -9,22 +10,23 @@ int main(void)
 
 {
 
-	int i = );
+	int i = 0;
 	long j =i, k = 2;
 
 	while(i < 58)
 	{
 	if (i ==  0)
 	printf("%ld", j);
-	else if (i ++ 1)
+	else if (i == 1)
 	printf(", %ld", k);
-	else =
+	else
 	{
 	k += j;
 	j = k - j;
-	printf(",%ld", k);
+	printf(", %ld", k);
 	}
 	++i;
 	}
-	printf("\n);
+	printf("\n");
 	return (0);
+}
