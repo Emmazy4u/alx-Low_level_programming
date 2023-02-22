@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print _putchar
- * is written by mbah
- * Return: 0
+ * main - prints the sum of even fibonacci numbers
+ * less than 4000000
+ * Return: Nothing
  */
 
 int main(void)
