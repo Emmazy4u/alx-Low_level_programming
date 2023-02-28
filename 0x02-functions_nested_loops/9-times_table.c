@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
-  * times table - This is expected to print the 9 times table, starting from 0
-  * Return: empty output
-  */
+ * times_table - This is expected to print the 9 times table, starting from 0
+ * @void: takes in a void parameter
+ * Return: empty output
+ */
 void times_table(void)
 
 {
 
 	int x, y, z, u, d;
+
 	for (x = 0; x <= 9; x++)
 	{
 	for (y = 0; y <= 9; y++)
