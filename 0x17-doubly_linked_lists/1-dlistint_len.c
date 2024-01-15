@@ -22,7 +22,7 @@ size_t dlistint_len(const dlistint_t *h)
 			ptr = ptr->next;
 		}
 		return (count);
-		free(ptr);
+		ptr = NULL;
 	}
 	return (count);
 }
